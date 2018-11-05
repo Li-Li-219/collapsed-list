@@ -1,0 +1,22 @@
+<div class="bg-black white flex justify-between items-center navigation">
+  
+  <div class="icon" (click)="toggle()">
+    <i class="fas fa-equals" *ngIf="!show"></i>
+    <i class="fas fa-times" *ngIf="show"></i>
+  </div>
+  
+  <div>
+    <i class="white fab fa-apple"></i>
+    <span class="pa2" *ngIf="!show">Talent Point</span>
+    <span class="pa2" *ngIf="show">Recruitment</span>
+  </div>
+  
+  <div class="icon">
+    <i class="fas fa-search"></i>
+    <i class="far fa-bell"></i>
+  </div>
+
+</div>
+<div class="bg-black vh-100" *ngIf="show">
+  <app-list></app-list>
+</div>

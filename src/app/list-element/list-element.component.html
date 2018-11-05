@@ -1,0 +1,16 @@
+<div class="list-element flex justify-between white items-center">
+    <div class="flex items-center">
+        <div class="side" [ngStyle]="{'background-color': item.color}"></div>
+        <div class="title">{{ item.title }}</div>
+    </div>
+
+    <div *ngIf="item.subList.length !== 0" (click)="toggle()">
+        <i class="fas fa-plus" *ngIf="!show"></i>
+        <i class="fas fa-times" *ngIf="show"></i>
+    </div>
+
+</div>
+
+<ng-container *ngIf="show">
+    <div class="subList" *ngFor="let child of item.subList">{{child}}</div>
+</ng-container>

@@ -1,0 +1,30 @@
+app-list-element {
+    height: 50px;
+}
+
+span {
+    color: #979797;
+    font-size: 18pt;
+}
+
+.side {
+    height: 50px;
+    width: 5px;
+}
+
+.title {
+    color: #979797;
+    height: 40px;
+    font-size: 18pt;
+    padding-left: 50px;
+    line-height: 40px;
+}
+
+i::before {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.special-element {
+    border-bottom: #979797 solid 1px;
+}

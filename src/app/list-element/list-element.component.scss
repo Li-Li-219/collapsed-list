@@ -1,0 +1,30 @@
+.title {
+    font-size: 18pt;
+    margin-left: 50px;
+}
+
+.side {
+    height: 50px;
+    width: 5px;
+}
+
+i::before {
+    font-size: 12px;
+    margin-right: 26px;
+}
+
+.subList {
+    color: #979797;
+    height: 40px;
+    font-size: 16pt;
+    padding-left: 65px;
+    line-height: 40px;
+}
+
+.subList:last-child {
+    height: 55px;
+}
+
+.list-element {
+    border-bottom: #979797 solid 1px;
+}

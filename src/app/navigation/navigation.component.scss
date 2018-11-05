@@ -1,0 +1,21 @@
+div {
+    &.navigation {
+        height: 50px;
+    }
+}
+
+i::before{
+    font-size: 25px;
+}
+
+span{
+    font-size: 25px;
+}
+
+.icon{
+    margin: 13.5px;
+}
+
+.fa-search::before{
+    margin-right: 13.5px;
+}

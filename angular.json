@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "angular-collapsed-list"
+  "defaultProject": "angular-collapsed-list",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

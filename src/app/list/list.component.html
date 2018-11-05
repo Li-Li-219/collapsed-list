@@ -1,0 +1,8 @@
+<app-list-element *ngFor="let item of itemList" [item]="item"></app-list-element>
+<div class="special-element flex items-center bg-black">
+    <div class="flex items-center">
+        <div class="side" [ngStyle]="{'background-color': specialElement.color}"></div>
+        <div class="title white">{{specialElement.title}}</div>
+    </div>
+    <i class="fas fa-angle-down white"></i>
+</div>
